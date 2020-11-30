@@ -12,7 +12,7 @@ sentence1 = "Hello there, and how are you?"
 reverse_each_word(sentence1)
 
 def uses_collect(sentence2)
-  words = sentence2.split("")
+  words = sentence2.split(" ")
   new_sentence = []
 
   words.collect do |str|
