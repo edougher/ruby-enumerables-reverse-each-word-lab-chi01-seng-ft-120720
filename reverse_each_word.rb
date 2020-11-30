@@ -10,3 +10,15 @@ end
 end
 sentence1 = "Hello there, and how are you?"
 reverse_each_word(sentence1)
+
+def uses_collect(sentence2)
+  words = sentence2.split("")
+  new_sentence = []
+
+  words.collect do |words|
+    words = words.reverse
+  end
+  new_sentence.join(" ")
+end
+
+uses_collect(sentence1)
