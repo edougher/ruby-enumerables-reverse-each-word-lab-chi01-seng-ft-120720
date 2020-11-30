@@ -21,5 +21,5 @@ def uses_collect(sentence2)
   end
   #p new_sentence.join(" ")
 end
-
-uses_collect(sentence1)
+sentence2 = "Verifying that collect is being called."
+uses_collect(sentence2)
