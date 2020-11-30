@@ -10,6 +10,8 @@ new_sentence.join(" ")
 end
 p new_sentence
 end
+sentence1 = "Hello there, and how are you?"
+reverse_each_word(sentence1)
 
 =begin
 def uses_collect(sentence2)
@@ -25,6 +27,5 @@ end
 =end
 
 
-hello_world = "Hello there, and how are you?"
-reverse_each_word(hello_world)
+
 #uses_collect(hello_world)
