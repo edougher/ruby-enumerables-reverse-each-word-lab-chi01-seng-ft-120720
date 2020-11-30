@@ -3,7 +3,7 @@ words = sentence.split(" ")
 new_sentence = ""
 
 words.each do |words|
-words = words.reversed
+words = words.reverse
 p words
 
 
