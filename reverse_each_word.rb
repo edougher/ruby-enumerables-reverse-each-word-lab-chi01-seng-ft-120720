@@ -7,7 +7,7 @@ new_sentence = []
 words.each do |words|
 new_sentence << words.reversed
 
-new_sentence.join(" ")
+ p new_sentence.join(" ")
 end
 p words
 end
