@@ -20,6 +20,7 @@ def uses_collect(sentence_2)
   new_sentence.join(" ")
   end
   p new_sentence
+end
 
 
 
