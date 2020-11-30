@@ -5,11 +5,8 @@ new_sentence = []
 words.each do |words|
 words = words.reverse
 new_sentence << words
-new_sentence.join(" ")
-p words
-
-
 end
+new_sentence.join(" ")
 p new_sentence
 end
 sentence1 = "Hello there, and how are you?"
