@@ -16,8 +16,8 @@ end
 sentence1 = "Hello there, and how are you?"
 reverse_each_word(sentence1)
 
-=begin
-def uses_collect(sentence2)
+
+def reverse_each_word(sentence2)
   words = sentence2.split(" ")
   new_sentence = []
 
@@ -29,4 +29,3 @@ def uses_collect(sentence2)
 end
 sentence2 = "Verifying that collect is being called."
 uses_collect(sentence2)
-=end
