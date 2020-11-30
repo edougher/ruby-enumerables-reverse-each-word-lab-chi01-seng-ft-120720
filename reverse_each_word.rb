@@ -28,3 +28,4 @@ def uses_collect(sentence2)
 end
 sentence2 = "Verifying that collect is being called."
 uses_collect(sentence2)
+=end
