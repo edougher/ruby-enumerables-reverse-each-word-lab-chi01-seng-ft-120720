@@ -19,7 +19,7 @@ def uses_collect(sentence2)
    words = str.reverse
    new_sentence << words
   end
-  p new_sentence.join(" ")
+  #p new_sentence.join(" ")
 end
 sentence2 = "Verifying that collect is being called."
 uses_collect(sentence2)
