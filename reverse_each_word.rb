@@ -6,6 +6,11 @@ words.each do |words|
 words = words.reverse
 new_sentence << words
 end
+words.collect do |str|
+ words = str.reverse
+ new_sentence << words
+end
+p new_sentence.join(" ")
  p new_sentence.join(" ")
 end
 sentence1 = "Hello there, and how are you?"
