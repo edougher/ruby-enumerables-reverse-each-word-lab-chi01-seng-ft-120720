@@ -25,4 +25,5 @@ end
 
 
 hello_world = "Hello there, and how are you?"
+uses_collect(hello_world)
 reverse_each_word(hello_world)
