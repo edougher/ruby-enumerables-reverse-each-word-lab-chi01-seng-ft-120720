@@ -1,5 +1,3 @@
-
-
 def reverse_each_word(sentence)
 words = sentence.split(" ")
 new_sentence = []
@@ -14,19 +12,7 @@ end
 sentence1 = "Hello there, and how are you?"
 reverse_each_word(sentence1)
 
-=begin
-def uses_collect(sentence2)
-  words = sentence2.split(" ")
-  new_sentence = []
-
-  words.collect do |words|
-  new_sentence << words.reverse
-  new_sentence.join(" ")
-  end
-  p new_sentence
-end
-=end
 
 
 
-#uses_collect(hello_world)
+
