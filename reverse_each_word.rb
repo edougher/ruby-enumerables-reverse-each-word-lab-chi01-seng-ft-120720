@@ -4,6 +4,8 @@ new_sentence = ""
 
 words.each do |words|
 words = words.reverse
+new_sentence << words
+new_sentence.join(" ")
 p words
 
 
