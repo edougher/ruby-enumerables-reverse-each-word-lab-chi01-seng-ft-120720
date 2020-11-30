@@ -18,7 +18,7 @@ def uses_collect(sentence2)
   words.collect do |words|
     words = words.reverse
   end
-  new_sentence.join(" ")
+  p new_sentence.join(" ")
 end
 
 uses_collect(sentence1)
