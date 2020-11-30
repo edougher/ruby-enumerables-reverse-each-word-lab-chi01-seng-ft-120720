@@ -19,7 +19,7 @@ def uses_collect(sentence2)
    str.reverse
    new_sentence << words
   end
-  p new_sentence.join(" ")
+  #p new_sentence.join(" ")
 end
 
 uses_collect(sentence1)
