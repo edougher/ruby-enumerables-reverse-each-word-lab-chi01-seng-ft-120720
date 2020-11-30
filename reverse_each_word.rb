@@ -5,7 +5,7 @@ words = sentence.split(" ")
 new_sentence = []
 
 words.each do |words|
-new_sentence << words.reversed
+new_sentence << words.reverse
 
  p new_sentence.join(" ")
 end
