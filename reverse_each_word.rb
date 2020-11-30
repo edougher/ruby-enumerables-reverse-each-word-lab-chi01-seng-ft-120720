@@ -11,7 +11,7 @@ end
 p new_sentence
 end
 
-
+=begin
 def uses_collect(sentence2)
   words = sentence2.split(" ")
   new_sentence = []
@@ -22,7 +22,7 @@ def uses_collect(sentence2)
   end
   p new_sentence
 end
-
+=end
 
 
 hello_world = "Hello there, and how are you?"
