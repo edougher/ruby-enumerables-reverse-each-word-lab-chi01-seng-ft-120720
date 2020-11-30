@@ -28,4 +28,3 @@ end
 hello_world = "Hello there, and how are you?"
 reverse_each_word(hello_world)
 uses_collect(hello_world)
-
