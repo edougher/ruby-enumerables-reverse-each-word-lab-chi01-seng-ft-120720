@@ -16,7 +16,7 @@ def uses_collect(sentence2)
   new_sentence = []
 
   words.collect do |str|
-    words = str.reverse
+   str.reverse
    new_sentence << words
   end
   p new_sentence.join(" ")
