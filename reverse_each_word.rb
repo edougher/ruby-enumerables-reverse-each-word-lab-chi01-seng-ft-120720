@@ -1,5 +1,5 @@
 
-
+=begin
 def reverse_each_word(sentence)
 words = sentence.split(" ")
 new_sentence = []
@@ -10,7 +10,7 @@ new_sentence.join(" ")
 end
 p new_sentence
 end
-
+=end
 def uses_collect(sentence_2)
   words = sentence.split(" ")
   new_sentence = []
