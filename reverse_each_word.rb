@@ -9,7 +9,6 @@ new_sentence << words.reversed
 
  p new_sentence.join(" ")
 end
-p words
 end
 hello_world = "Hello there, and how are you?"
 reverse_each_word(hello_world)
