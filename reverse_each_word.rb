@@ -15,6 +15,7 @@ end
 end
 sentence1 = "Hello there, and how are you?"
 reverse_each_word(sentence1)
+
 =begin
 def uses_collect(sentence2)
   words = sentence2.split(" ")
