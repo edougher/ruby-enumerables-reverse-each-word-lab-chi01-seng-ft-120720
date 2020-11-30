@@ -11,8 +11,3 @@ p new_sentence
 end
 sentence1 = "Hello there, and how are you?"
 reverse_each_word(sentence1)
-
-
-
-
-
