@@ -6,9 +6,9 @@ new_sentence = []
 
 words.each do |words|
 new_sentence << words.reverse
-
- p new_sentence.join(" ")
+new_sentence.join(" ")
 end
+p new_sentence
 end
 hello_world = "Hello there, and how are you?"
 reverse_each_word(hello_world)
